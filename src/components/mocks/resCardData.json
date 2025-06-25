@@ -1,0 +1,108 @@
+{
+    "card": {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+                "id": "84070",
+                "name": "Gurukripa Restaurant - Sarwate",
+                "city": "18",
+                "slugs": {
+                    "restaurant": "shree-gurukripa-sarwate-bus-stand-south-tukoganj",
+                    "city": "indore"
+                },
+                "cloudinaryImageId": "g5txnz35wlrgbskk3r8y",
+                "address": "Sarwate Bus Stand, Indore",
+                "locality": "Sarwate",
+                "areaName": "South Tukoganj",
+                "costForTwo": "25000",
+                "costForTwoMessage": "₹250 FOR TWO",
+                "cuisines": [
+                    "North Indian",
+                    "Thalis",
+                    "Indian",
+                    "Fast Food",
+                    "Chinese",
+                    "Beverages",
+                    "Desserts",
+                    "Jain",
+                    "Punjabi"
+                ],
+                "avgRating": 4.4,
+                "feeDetails": {},
+                "avgRatingString": "4.4",
+                "totalRatingsString": "127K+",
+                "sla": {
+                    "deliveryTime": 41,
+                    "minDeliveryTime": 40,
+                    "maxDeliveryTime": 45,
+                    "lastMileTravel": 6.5,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "RAIN_MODE_NONE",
+                    "slaString": "40-45 MINS",
+                    "lastMileTravelString": "6.5 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "opened": true,
+                    "restaurantClosedMeta": {}
+                },
+                "badges": {
+                    "imageBadges": [
+                        {
+                            "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                            "description": "Delivery!"
+                        }
+                    ]
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "ITEMS",
+                    "subHeader": "AT ₹69",
+                    "logoCtx": {
+                        "text": "BENEFITS"
+                    }
+                },
+                "ratingSlab": "RATING_SLAB_5",
+                "orderabilityCommunication": {
+                    "title": {},
+                    "subTitle": {},
+                    "message": {},
+                    "customIcon": {},
+                    "commsStyling": {}
+                },
+                "cartOrderabilityNudgeBanner": {
+                    "parameters": {},
+                    "presentation": {}
+                },
+                "externalRatings": {
+                    "aggregatedRating": {
+                        "rating": "--"
+                    }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                "featuredSectionInfo": {
+                    "sectionTitle": "More"
+                }
+            },
+            "analytics": {
+                "screenName": "explore",
+                "context": "{\"tid\":\"13f4f055-b6a8-0df5-c4ed-b5ee4559af90\",\"grid\":\"24da8be0-d053-4f16-b453-0f237a9a9fb6\",\"queryUniqueId\":\"6a04f068-cccf-c6cb-2072-3688bf87ebbc\",\"query\":\"indore restaurant\"}",
+                "objectValue": "84070",
+                "impressionObjectName": "impression-restaurant",
+                "clickObjectName": "click-restaurant"
+            },
+            "ctaWithParams": {
+                "link": "swiggy://menu",
+                "type": "DEEPLINK",
+                "params": {
+                    "qrEnabled": "false",
+                    "restaurant_id": "84070",
+                    "query": "indore restaurant",
+                    "sourceSessionId": "lcy51183-5116-40e2-baa0-9930c1398403",
+                    "source": "SEARCH",
+                    "isSld": "false",
+                    "sourceRequestId": "685b813e0c5ca960340de85e7960da3b"
+                }
+            }
+        }
+    }
+}
