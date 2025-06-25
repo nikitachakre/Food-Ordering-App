@@ -1,5 +1,20 @@
 # React-Core
 
+- Component
+- Component Composition
+- Hookes
+- Reconciliation Algorithum
+- Diff Algorithum
+- Routing- 1. Client side routing, 2. Server side routing
+  -Optimizing App
+  -Sigle Responsibility
+  -Modularity
+  -Custom Hokks
+  -Chunking, Code spliting, Lazy loading, Dynamic Bundaling
+- Higher order component
+- Controlled and Uncontrolled Component
+- Lifting the state up
+
 # Parcel
 
 - Dev Tools
