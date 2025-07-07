@@ -25,7 +25,7 @@ const handleAddItem = (item) =>{
             </div>
             <div className="text-center w-3/12">
               <div className="relative">
-                <button  onClick={()=>handleAddItem(item)} className="bg-orange-600 text-white text-sm font-semibold h-8 w-16 px-2 rounded-lg absolute top-0 right-2">
+                <button  onClick={()=>handleAddItem(item)} className="bg-orange-600 text-white text-sm font-semibold h-8 w-16 px-2 rounded-lg absolute top-[90px] left-10">
                   ADD+
                 </button>
               </div>

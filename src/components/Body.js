@@ -50,18 +50,18 @@ const Body = () => {
   ) : (
     <div className="mt-20">
       <div className="flex m-2">
-        <div className="m-4 p-4">
+        <div className="mt-4 mb-2 md:m-4 p-4">
           <input
             type="text"
             placeholder="search for restaurants"
-            className="rounded-lg w-96 h-8 border border-solid border-gray-600 hover:border p-2 "
+            className="rounded-lg w-64 md:w-96 h-8 border border-solid border-gray-600 hover:border p-2 "
             value={inputBox}
             onChange={(e) => {
               setInputBox(e.target.value);
             }}
           />
           <button
-            className="px-4 py-1.5 m-2 w-28 rounded-lg font-medium text-white bg-orange-400 hover:bg-orange-500   "
+            className="px-4 py-1.5 mx-3 md:m-2 w-20 md:w-28 rounded-lg font-medium text-white bg-orange-400 hover:bg-orange-500   "
             onClick={() => {
               // console.log(inputBox);
               const searchFiltered = listofRestro.filter((restro) => {
@@ -79,7 +79,7 @@ const Body = () => {
             Search
           </button>
         </div>
-        <div className="m-4 p-4 flex items-center">
+        <div className=" hidden md:inline-block m-4 p-4 items-center">
           <button
             className=" px-4 py-1.5 m-2 rounded-lg font-medium text-white bg-orange-400 hover:bg-orange-500 "
             onClick={() => {
@@ -93,8 +93,8 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className="max-h-[650px] overflow-y-auto">
-        <div className=" flex flex-wrap m-4 p-4">
+      <div>
+        <div className=" flex flex-wrap max-h-[400px] md:max-h-[720px] overflow-y-auto m-4 p-4">
           {filteredRestaurants.map((restaurant) => (
             <Link
               className="font-normal "
