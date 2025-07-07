@@ -1,4 +1,16 @@
-# React-Core
+# Food Ordering App
+
+A high-performance **food ordering web application** built using React.js and Redux Toolkit, inspired by real-world platforms like Swiggy and Zomato.
+
+This app allows users to:
+
+- Browse a list of restaurants using Swiggy’s public API
+- View dynamic restaurant menus
+- Add items to a shopping cart and manage state with Redux
+- Navigate smoothly between pages using React Router
+- Experience fast loading with shimmer UI and lazy loading
+
+# Core React Concepts Implemented
 
 - Component
 - Component Composition
